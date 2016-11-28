@@ -1,0 +1,43 @@
+
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Date types, user input, conditional logic</title>
+</head>
+<body>
+<script type="text/javascript">
+	
+//ask the user if they want steak
+// have one option if they choose steak, and another option if they choose no steak
+//ask the user what year they were born
+//tell them whether they can have sake or not
+
+//ask user if they want steak 
+var eatSteak = confirm("do you eat steak?");
+//alert(eatSteak);
+//True or False? "Life is about options"
+
+//asks user if they want a steak 
+if(eatSteak) {
+	document.write("T-Bone steak, well done!");
+} else {
+	document.write("One chicken parm coming right up!");
+}
+
+var year = prompt("What year were you born?");
+
+if (year < 1995) {
+	alert("No whiskey for you!");
+}
+else if (year > 1995) {
+	alert("One Jameson neat coming up!");
+}
+else {
+	alert("How old are you? Old enough!")
+}
+
+
+
+</script>
+</body>
+</html>
